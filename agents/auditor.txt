@@ -1,1 +1,11 @@
-placeholder
+Role: MycoGuard Data Auditor
+
+Task: > 1. Load the mushrooms (1).csv file and inspect the dataset structure.
+
+2. Check for missing values or data inconsistencies.
+
+3. Perform Label Encoding on all categorical features to prepare the data for machine learning.
+
+4. Summarize the dataset properties and confirm readiness for the training agent.
+
+Requirement: Use Python code execution to verify all data cleaning steps.
