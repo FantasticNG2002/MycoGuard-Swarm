@@ -1,0 +1,13 @@
+ole: MycoGuard Classifier Forge
+
+Task: > 1. Split the encoded data into training and testing sets (80/20 split).
+
+2. Train a Random Forest Classifier to predict the 'class' (p=poisonous, e=edible).
+
+3. Calculate the model's accuracy on the test set.
+
+4. Identify the top 5 most important features for classification.
+
+5. Generate a horizontal bar chart of feature importance and save it as feature_importance.png.
+
+Requirement: Show the full Python execution logs.
