@@ -52,6 +52,9 @@ JavaScript
 const NGROK_URL = "https://YOUR_NEW_NGROK_ID.ngrok-free.app/generate"; 
 Save the file and simply double-click index.html to open it in your browser. Enter your prompt and watch the agents collaborate!
 
+Alternative Installation:
+Run pip install -r requirements.txt to install all necessary dependencies for the MycoGuard AI swarm.
+
 ## 📂 Repository Structure
 /agents/: Contains the modular code defining the Router, Auditor, Forge, and Validator agents (Google ADK configurations).
 
