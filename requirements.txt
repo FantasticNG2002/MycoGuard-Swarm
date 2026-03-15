@@ -1,5 +1,11 @@
+fastapi
+uvicorn
+pyngrok
+nest-asyncio
+pydantic
+google-adk
 google-generativeai
 pandas
 scikit-learn
 matplotlib
-seaborn
+ipython
