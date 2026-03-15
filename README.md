@@ -7,8 +7,6 @@ In biological data science, a single "False Negative" in mushroom classification
 
 ---
 
-## ⚙️ System Architecture & Functional Flow
-*(This diagram illustrates the Chain-of-Thought and sequential execution of our swarm)*
 #🛠️ Prerequisites 
 Before running this project, you need to prepare the following:
 
@@ -62,17 +60,20 @@ Save the file and simply double-click index.html to open it in your browser. Ent
 /frontend/: Contains the lightweight index.html UI for user interaction.
 
 MycoGuard_Live_Demo.ipynb: The complete, runnable Google Colab notebook demonstrating the entire pipeline.
+## ⚙️ System Architecture & Functional Flow
+*(This diagram illustrates the Chain-of-Thought and sequential execution of our swarm)*
+
 ```mermaid
 graph TD
     classDef user fill:#f9f,stroke:#333,stroke-width:2px;
     classDef router fill:#bbf,stroke:#333,stroke-width:2px;
     classDef worker fill:#dfd,stroke:#333,stroke-width:2px;
     
-    U[User Query]:::user --> API[FastAPI Gateway]
-    API --> R{Router Agent 🚦}:::router
+    U["User Query"]:::user --> API["FastAPI Gateway"]
+    API --> R{"Router Agent 🚦"}:::router
     
-    R -- "Sequential Pipeline" --> A[Data Auditor Agent 🧹]:::worker
-    A -- "Context" --> F[Classifier Forge Agent 🧠]:::worker
-    F -- "Context" --> V[Safety Validator Agent 🛡️]:::worker
-    V -- "Audited Script" --> Out[Final Secure Code]'''
+    R -- "Sequential Pipeline" --> A["Data Auditor Agent 🧹"]:::worker
+    A -- "Context" --> F["Classifier Forge Agent 🧠"]:::worker
+    F -- "Context" --> V["Safety Validator Agent 🛡️"]:::worker
+    V -- "Audited Script" --> Out["Final Secure Code"]
 
