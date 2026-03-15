@@ -65,9 +65,9 @@ MycoGuard_Live_Demo.ipynb: The complete, runnable Google Colab notebook demonstr
 
 ```mermaid
 graph TD
-    classDef user fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef router fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef worker fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef user fill:#f9,stroke:#333,stroke-width:2px;
+    classDef router fill:#bb,stroke:#333,stroke-width:2px;
+    classDef worker fill:#df,stroke:#333,stroke-width:2px;
     
     U["User Query"]:::user --> API["FastAPI Gateway"]
     API --> R{"Router Agent 🚦"}:::router
